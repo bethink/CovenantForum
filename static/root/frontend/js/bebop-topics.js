@@ -21,7 +21,7 @@ var BebopTopics = Vue.component("bebop-topics", {
 
         <div class="topics-topic-top-buttons">
           <a target="_blank" class="cqldb list btn btn-primary btn-sm" :href="dbLink">
-            <i class="fa fa-external-link"></i> CovenantSQL DB Chain
+            <i class="fa fa-external-link"></i> Guardian SQL DB Chain
           </a>
           <router-link v-if="auth.authenticated" to="/new-topic" class="btn btn-primary btn-sm">
             <i class="fa fa-plus"></i> New Topic
